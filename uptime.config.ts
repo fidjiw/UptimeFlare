@@ -35,17 +35,17 @@ const workerConfig = {
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
       timeout: 10000,
       // [OPTIONAL] headers to be sent
-      headers: {
-        'User-Agent': 'Uptimeflare',
-        Authorization: 'Bearer YOUR_TOKEN_HERE',
-      },
-      // [OPTIONAL] body to be sent
-      body: 'Hello, world!',
-      // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
-      responseKeyword: 'success',
-      // [OPTIONAL] if specified, the check will run in your specified region,
-      // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      checkLocationWorkerRoute: 'https://xxx.example.com',
+      // headers: {
+      //   'User-Agent': 'Uptimeflare',
+      //   Authorization: 'Bearer YOUR_TOKEN_HERE',
+      // },
+      // // [OPTIONAL] body to be sent
+      // body: 'Hello, world!',
+      // // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
+      // responseKeyword: 'success',
+      // // [OPTIONAL] if specified, the check will run in your specified region,
+      // // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
+      // checkLocationWorkerRoute: 'https://xxx.example.com',
     },
     // Example TCP Monitor
     // {
