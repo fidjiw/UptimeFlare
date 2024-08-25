@@ -27,13 +27,13 @@ const workerConfig = {
       // `target` is a valid URL
       target: 'https://uptime.xfeng.io',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      // tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://uptime.xfeng.io',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 10000,
+      timeout: 1000,
       // [OPTIONAL] headers to be sent
       // headers: {
       //   'User-Agent': 'Uptimeflare',
